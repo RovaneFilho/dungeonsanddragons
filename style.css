@@ -2,8 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+
 :root{
     --font1: 'Pirata One', cursive;
+    --font2: "Alegreya SC", serif;
 }
 
 * {
@@ -23,52 +26,77 @@ body {
 header{
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
+    font-family: var(--font1);
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
     min-height: 150px;
+     
 }
 
 header nav  {
     list-style: none;
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: center;
+    width: 98vw;
     margin-top: 40px;
-    gap: 20px;
+    gap: 30px;
 }
 
 header nav a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    text-align: center;    
+    text-align: center; 
+    width: 98vw; 
+    padding: 10px; 
+}
+
+header nav a:hover {
+    text-decoration: line-through;
+    color: #a17b53;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 main {
     background-image: linear-gradient(to left, #a17b53, #a48869, #cfb492, #e0c8a5, #b68d56);
-    padding: 10px;
+    padding: 1px;
     margin: auto;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 270px;
+    max-width: 800px;
 }
 
 section {
     text-align: justify;
-    padding: 0px 20px;
+    padding: 0px;
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
     height: 100%;
-    border-top: 50px;
     gap: 20px;
 }
 
 section h2 {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 35px;
     background-image: linear-gradient(to bottom, #400303, transparent);
+    font-family: var(--font1);
+    padding: 10px;
     
 }
 
+section p {
+    font-family: var(--font2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000;
+}
+
 .imagen {
-    
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -78,7 +106,7 @@ footer {
     background-color: rgb(0, 0, 0);
     color: #fff;
     text-align: center;
-    padding: 10px;
     bottom: 0;
-    width: 100%;
+    border-top: 20px;
+    
 }
