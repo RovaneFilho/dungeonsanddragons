@@ -33,6 +33,17 @@ header{
      
 }
 
+header > h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > h1 > a:hover {
+    text-decoration: line-through;
+    color: #a17b53;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
 header nav  {
     list-style: none;
     display: block;
@@ -58,6 +69,7 @@ header nav a:hover {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
+
 main {
     background-image: linear-gradient(to left, #a17b53, #a48869, #cfb492, #e0c8a5, #b68d56);
     padding: 1px;
@@ -65,6 +77,7 @@ main {
     min-width: 270px;
     max-width: 800px;
 }
+
 
 section {
     text-align: justify;
