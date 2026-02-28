@@ -70,11 +70,16 @@ header nav a:hover {
 }
 
 main {
-    background-image: linear-gradient(to left, #a17b53, #a48869, #cfb492, #e0c8a5, #b68d56);
+    background-image: url("../../imagens/elfofundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 10px;
     padding: 1px;
     margin: auto;
     min-width: 270px;
     max-width: 800px;
+    color: white;
 }
 
 main nav {
@@ -134,7 +139,7 @@ section p, ul {
     padding: 10px;
     font-size: 18px;
     line-height: 1;
-    color: #000;
+    color: #ffffff;
 }
 
 section ul {
@@ -155,7 +160,7 @@ table {
 }
 
 table th, table td {
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     padding: 10px;
     text-align: left;
 }
