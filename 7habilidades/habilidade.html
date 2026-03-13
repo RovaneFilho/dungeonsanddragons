@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D - Habilidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">Livro do Jogador</a></h1>
+        <p>Dungeons & Dragons é um jogo de RPG épico e fascinante</p>
+        <nav>
+            <a href="../2criando-persongem/personagem.html">Criando seu personagem</a>
+            <a href="../3racas/racas.html">Raças</a>
+            <a href="../4classes/classes.html">Classes</a>
+            <a href="../6equipamentos/equipamentos.html">Equipamentos</a>
+            <a href="habilidade.html">Habilidades</a>
+            <a href="../8magias/magias.html">Magias</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>O que são Habilidades</h2>
+            <p>
+                As habilidades representam as características físicas e mentais fundamentais de um personagem ou criatura. Elas definem forças, limitações e capacidades gerais. <br>
+                <strong>Existem seis habilidades principais:</strong>
+            </p>
+
+            <table>
+                <tr>
+                    <th>Habilidade</th>
+                    <th>O que mede</th>
+                </tr>
+                <tr>
+                    <td>Força</td>
+                    <td>Poder físico e força muscular</td>
+                </tr>
+                <tr>
+                    <td>Destreza</td>
+                    <td>Agilidade, reflexos e equilíbrio</td>
+                </tr>
+                <tr>
+                    <td>Constituição</td>
+                    <td>Resistência física e vitalidade</td>
+                </tr>
+                <tr>
+                    <td>Inteligência</td>
+                    <td>Lógica, memória e raciocínio</td>
+                </tr>
+                <tr>
+                    <td>Sabedoria</td>
+                    <td>Percepção, intuição e sensibilidade</td>
+                </tr>
+                <tr>
+                    <td>Carisma</td>
+                    <td>Presença, confiança e influência social</td>
+                </tr>
+            </table>
+
+            <ul>
+                <p>Esses atributos determinam quase todas as jogadas do jogo, incluindo:</p>
+                <li>Testes de habilidade</li>
+                <li>Testes de resistência</li>
+                <li>Jogadas de ataque</li>
+            </ul>
+            <p>
+                <strong>Todas essas ações seguem a regra básica:</strong> <br>
+                d20 + modificador de habilidade <br>
+                O resultado é comparado com um número alvo (Classe de Dificuldade – CD).
+            </p>
+        </section>
+
+        <section>
+            <h2>Valores e Modificadores de Habilidade</h2>
+            <p>Cada habilidade possui um valor numérico que representa seu nível.</p>
+
+            <table>
+                <p><strong>Valores comuns</strong></p>
+                <tr>
+                    <th scope="col">Valor</th>
+                    <th scope="col">Significado</th>
+                </tr>
+                <tr>
+                    <td>10–11</td>
+                    <td>Média humana</td>
+                </tr>
+                <tr>
+                    <td>12–17</td>
+                    <td>Acima da média</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Limite humano comum</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Nível heroico</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>Poder divino ou monstruoso</td>
+                </tr>
+            </table>
+
+            <p>
+                <strong>Modificador de habilidade</strong> <br>
+                O modificador é derivado do valor da habilidade e é o número realmente usado nas jogadas.
+            </p>
+
+            <table>
+                <p>Exemplos:</p>
+                <tr>
+                    <th scope="col">Valor</th>
+                    <th scope="col">Modificador</th>
+                </tr>
+                <tr>
+                    <td>8–9</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>10–11</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>12–13</td>
+                    <td>+1</td>
+                </tr>
+                <tr>
+                    <td>14–15</td>
+                    <td>+2</td>
+                </tr>
+                <tr>
+                    <td>16–17</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>18–19</td>
+                    <td>+4</td>
+                </tr>
+                <tr>
+                    <td>20–21</td>
+                    <td>+5</td>
+                </tr>
+            </table>
+
+            <p>
+                <strong>Fórmula</strong> <br>
+                Modificador = (Valor – 10) ÷ 2 <br>
+                Arredondado para baixo.
+            </p>
+        </section>
+
+        <section>
+            <h2>Vantagem e Desvantagem</h2>
+            <p>Algumas situações concedem vantagem ou desvantagem.</p>
+            <p>
+                <strong>Vantagem</strong> <br>
+                Role 2d20 e use o maior resultado.
+            </p>
+            <p>
+                <strong>Desvantagem</strong><br>
+                Role 2d20 e use o menor resultado.
+            </p>
+
+            <ul>
+                <p>Regras importantes</p>
+                <li>Várias vantagens não acumulam</li>
+                <li>Várias desvantagens não acumulam</li>
+                <li>Se houver vantagem e desvantagem, elas se anulam</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Bônus de Proficiência</h2>
+            <p>Personagens possuem um bônus de proficiência baseado no nível.</p>
+            <ul>
+                <p>Esse bônus é usado em:</p>
+                <li>Testes de habilidade</li>
+                <li>Testes de resistência</li>
+                <li>Jogadas de ataque</li>
+                <li>Perícias</li>
+                <li>Ferramentas</li>
+            </ul>
+
+            <p>
+                <strong>Regra importante</strong> <br>
+                O bônus não pode ser aplicado duas vezes na mesma rolagem, mesmo que duas regras permitam.
+            </p>
+
+            <ul>
+                <p>Algumas habilidades podem:</p>
+                <li>Dobrar o bônus (ex: Especialização do Ladino)</li>
+                <li>Reduzir pela metade</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Testes de Habilidade</h2>
+            <p>Um teste de habilidade ocorre quando um personagem tenta realizar uma ação que pode falhar.</p>
+            <ol>
+                <p><strong>Como funciona</strong></p>
+                <li>Role 1d20</li>
+                <li>Adicione o modificador da habilidade</li>
+                <li>Compare com a Classe de Dificuldade (CD)</li>
+            </ol>
+            <p>Se o resultado for igual ou maior que a CD → sucesso.</p>
+
+            <table>
+                <p><strong>Classes de dificuldade</strong></p>
+                <tr>
+                    <th>Dificuldade</th>
+                    <th>CD</th>
+                </tr>
+                <tr>
+                    <td>Muito fácil</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Fácil</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Moderada</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Difícil</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Muito difícil</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Quase impossível</td>
+                    <td>30</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Testes Resistidos</h2>
+            <p>Ocorrem quando duas criaturas competem diretamente.</p>
+            <ul>
+                <p>Exemplos:</p>
+                <li>Pegar um objeto antes do outro</li>
+                <li>Empurrar alguém</li>
+                <li>Impedir uma porta de ser aberta</li>
+            </ul>
+            <p>
+                <strong>Como funciona</strong> <br>
+                Ambos rolam testes. <br>
+                Quem tiver o maior resultado vence. <br>
+                Empate → situação permanece igual.
+            </p>
+        </section>
+
+        <section>
+            <h2>Perícias</h2>
+            <p>
+                Perícias representam especializações dentro de uma habilidade. <br>
+                Se o personagem tiver proficiência, ele adiciona: <br>
+                Modificador da habilidade + bônus de proficiência
+            </p>
+
+            <p><strong>Perícias por habilidade</strong></p>
+            <ul>
+                <p>Força</p>
+                <li>Atletismo</li>
+
+                <p>Destreza</p>
+                <li>Acrobacia</li>
+                <li>Furtividade</li>
+                <li>Prestidigitação</li>
+
+                <p>Inteligência</p>
+                <li>Arcanismo</li>
+                <li>História</li>
+                <li>Investigação</li>
+                <li>Natureza</li>
+                <li>Religião</li>
+
+                <p>Sabedoria</p>
+                <li>Adestrar Animais</li>
+                <li>Intuição</li>
+                <li>Medicina</li>
+                <li>Percepção</li>
+                <li>Sobrevivência</li>
+
+                <p>Carisma</p>
+                <li>Atuação</li>
+                <li>Enganação</li>
+                <li>Intimidação</li>
+                <li>Persuasão</li>
+            </ul>
+            <p>Constituição não possui perícias associadas.</p>
+        </section>
+
+        <section>
+            <h2>Testes Passivos</h2>
+            <p>
+                Testes passivos representam ações constantes sem rolagem de dados. <br>
+                <strong>Fórmula</strong> <br>
+                10 + modificadores
+            </p>
+            <ul>
+                <p>Se houver:</p>
+                <li>vantagem → +5</li>
+                <li>desvantagem → -5</li>
+            </ul>
+            <p>
+                <strong>Exemplo comum</strong><br>
+                Percepção Passiva
+            </p>
+            <ul>
+                <p>Usada para perceber:</p>
+                <li>inimigos escondidos</li>
+                <li>armadilhas</li>
+                <li>portas secretas</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Trabalho em Equipe</h2>
+            <ul>
+                <p>Quando personagens trabalham juntos:</p>
+                <li>Um personagem lidera o teste</li>
+                <li>Ele recebe vantagem</li>
+            </ul>
+            <p>Mas somente se todos puderem ajudar na tarefa.</p>
+        </section>
+
+        <section>
+            <h2>Testes em Grupo</h2>
+            <p>Usado quando todo o grupo tenta realizar a mesma ação.</p>
+            <ul>
+                <p>Exemplo:</p>
+                <li>atravessar um pântano</li>
+                <li>mover-se furtivamente</li>
+            </ul>
+            <p>
+                <strong>Regra</strong> <br>
+                Se metade ou mais do grupo tiver sucesso, o grupo inteiro tem sucesso.
+            </p>
+        </section>
+
+        <section>
+            <h2>Uso de Cada Habilidade</h2>
+            <p>
+                <strong>Força</strong> <br>
+                Representa potência física e força bruta.
+            </p>
+
+            <ul>
+                <p>Usos comuns</p>
+                <li>levantar objetos</li>
+                <li>empurrar</li>
+                <li>quebrar</li>
+                <li>escalar</li>
+                <li>saltar</li>
+                <li>nadar</li>
+            </ul>
+            <p>
+                <strong>Perícia associada</strong><br>
+                Atletismo
+            </p>
+
+            <p><strong>Ataques corpo-a-corpo</strong></p>
+            <ul>
+                <p>Armas como:</p>
+                <li>espadas</li>
+                <li>machados</li>
+                <li>maças</li>
+                <p>Usam modificador de Força.</p>
+            </ul>
+
+            <p>
+                <strong>Capacidade de carga</strong><br>
+                Peso máximo carregado: Força x 7,5 kg <br>
+                Peso máximo para empurrar ou levantar: Força x 15 kg
+            </p>
+
+            <p>
+                <strong>Destreza</strong> <br>
+                Mede agilidade, reflexos e coordenação.
+            </p>
+            <ul>
+                <p>Perícias</p>
+                <li>Acrobacia</li>
+                <li>Furtividade</li>
+                <li>Prestidigitação</li>
+
+                <p>Usos comuns</p>
+                <li>esconder-se</li>
+                <li>andar em superfícies instáveis</li>
+                <li>abrir fechaduras</li>
+                <li>desarmar armadilhas</li>
+
+                <p>Ataques à distância, armas como:</p>
+                <li>arcos</li>
+                <li>bestas</li>
+                <li>fundas</li>
+                <p>Usam modificador de Destreza.</p>
+
+                <p>Destreza também afeta:</p>
+                <li>Classe de Armadura</li>
+                <li>Iniciativa no combate</li>
+            </ul>
+
+            <p>
+                <strong>Constituição</strong><br>
+                Representa resistência física e vitalidade.
+            </p>
+            <ul>
+                <p>Usos</p>
+                <li>resistir a doenças</li>
+                <li>sobreviver sem comida</li>
+                <li>segurar a respiração</li>
+                <li>suportar fadiga</li>
+            </ul>
+            <p>
+                <strong>Pontos de Vida</strong><br>
+                O modificador de Constituição aumenta os pontos de vida do personagem. <br>
+                Cada nível recebe: Dado de vida + modificador de Constituição
+            </p>
+
+            <p>
+                <strong>Inteligência</strong><br>
+                Mede capacidade mental e conhecimento.
+            </p>
+
+            <ul>
+                <p>Perícias</p>
+                <li>Arcanismo</li>
+                <li>História</li>
+                <li>Investigação</li>
+                <li>Natureza</li>
+                <li>Religião</li>
+
+                <p>Usos comuns</p>
+                <li>lembrar informações</li>
+                <li>investigar pistas</li>
+                <li>estudar magia</li>
+                <li>analisar objetos</li>
+
+                <p>
+                    Conjuração <br>
+                    Magos usam Inteligência para lançar magias.
+                </p>
+            </ul>
+
+            <p>
+                <strong>Sabedoria</strong> <br>
+                Representa percepção e intuição.
+            </p>
+
+            <ul>
+                <p>Perícias</p>
+                <li>Adestrar Animais</li>
+                <li>Intuição</li>
+                <li>Medicina</li>
+                <li>Percepção</li>
+                <li>Sobrevivência</li>
+
+                <p>Usos comuns</p>
+                <li>perceber perigos</li>
+                <li>rastrear criaturas</li>
+                <li>detectar mentiras</li>
+                <li>sobreviver na natureza</li>
+
+                <p>
+                    Conjuração <br>
+                    Clérigos usam Sabedoria para lançar magias.
+                </p>
+            </ul>
+
+            <p>
+                <strong>Carisma</strong> <br>
+                Mede influência social e força de personalidade.
+            </p>
+
+            <ul>
+                <p>Perícias</p>
+                <li>Atuação</li>
+                <li>Enganação</li>
+                <li>Intimidação</li>
+                <li>Persuasão</li>
+
+                <p>Usos comuns</p>
+                <li>convencer pessoas</li>
+                <li>mentir</li>
+                <li>intimidar</li>
+                <li>entreter plateias</li>
+
+                <p>Conjuração Usado por:</p>
+                <li>Bardos</li>
+                <li>Bruxos</li>
+                <li>Feiticeiros</li>
+                <li>Paladinos</li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>Testes de Resistência</h2>
+            <ul>
+                <p>Testes de resistência representam a tentativa de resistir a efeitos perigosos, como:</p>
+                <li>magia</li>
+                <li>venenos</li>
+                <li>doenças</li>
+                <li>armadilhas</li>
+            </ul>
+            <ol>
+                <p>Como funciona</p>
+                <li>Role 1d20</li>
+                <li>Adicione modificador da habilidade</li>
+                <li>Se tiver proficiência, adicione bônus de proficiência</li>
+            </ol>
+
+            <ul>
+                <p>Exemplo</p>
+                <li>Resistir a uma explosão → Destreza</li>
+                <li>Resistir a veneno → Constituição</li>
+                <li>Resistir a controle mental → Sabedoria</li>
+                <p>A CD é definida pelo efeito que causou o teste.</p>
+
+                <p>Sucesso normalmente significa:</p>
+                <li>evitar dano</li>
+                <li>reduzir dano</li>
+                <li>resistir ao efeito.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Site criado por <a href="https://github.com/RovaneFilho" style="color: white; text-decoration: none;" target="_blank">Rovane Filho</a> Este é um projeto independente e não oficial.
+        Dungeons & Dragons e todos os nomes relacionados são marcas registradas da Wizards of the Coast LLC.
+        Nenhuma infração de direitos autorais é intencional.
+        Projeto desenvolvido apenas para fins educacionais.</p>
+    </footer>
+</body>
+</html>
