@@ -70,7 +70,11 @@ header nav a:hover {
 }
 
 main {
-    background-image: linear-gradient(to left, #a17b53, #a48869, #cfb492, #e0c8a5, #b68d56);
+    background-image: url('../imagens/fundoclass.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
     padding: 1px;
     margin: auto;
     min-width: 270px;
@@ -134,7 +138,7 @@ section p, ul {
     padding: 10px;
     font-size: 18px;
     line-height: 1;
-    color: #000;
+    color: #ffffff;
 }
 
 section ul {
@@ -159,6 +163,7 @@ table th, table td {
     border: 1px solid #000;
     padding: 10px;
     text-align: left;
+    color: #000;
 }
 
 tr:nth-child(odd) {
